@@ -1,0 +1,81 @@
+{
+  "task.json": {
+    "prefix": "elixir",
+    "body": [
+      "{",
+      "  \"version\": \"0.1.0\",",
+      "  \"command\": \"mix\",",
+      "  \"isShellCommand\": true,",
+      "  \"showOutput\": \"always\",",
+      "  \"suppressTaskName\": true,",
+      "  \"tasks\": [",
+      "    {",
+      "      \"taskName\": \"build\",",
+      "      \"args\": [",
+      "        \"compile\"",
+      "      ],",
+      "      \"problemMatcher\": [",
+      "        \"$mixCompileError\",",
+      "        \"$mixCompileWarning\"",
+      "      ],",
+      "      \"isBuildCommand\": true",
+      "    },",
+      "    {",
+      "      \"taskName\": \"test\",",
+      "      \"args\": [",
+      "        \"test\"",
+      "      ],",
+      "      \"problemMatcher\": [",
+      "        \"$mixCompileError\",",
+      "        \"$mixCompileWarning\",",
+      "        \"$mixTestFailure\"",
+      "      ],",
+      "      \"isTestCommand\": true",
+      "    }",
+      "  ]",
+      "}"
+    ],
+    "description": "Elixir Task"
+  },
+  "make file association react": {
+    "prefix": "files-react",
+    "body": [
+      "{",
+      "  \"files.associations\": {",
+      "    \"**.js\": \"javascriptreact\"",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "make file association react"
+  },
+  "jsdoc-betterdocs": {
+    "prefix": "jsdoc-betterdocs",
+    "body": [
+      "{",
+      "  \"tags\": {",
+      "    \"allowUnknownTags\": true,",
+      "    \"dictionaries\": [\"jsdoc\", \"closure\"]",
+      "  },",
+      "  \"source\": {",
+      "    \"include\": [\"src\"],",
+      "    \"includePattern\": \"\\\\.(jsx|js|ts|tsx)$\",",
+      "    \"excludePattern\": \"(^|\\\\/|\\\\\\\\)_\"",
+      "  },",
+      "  \"plugins\": [\"plugins/markdown\", \"node_modules/better-docs/\"],",
+      "  \"templates\": {",
+      "    \"better-docs\": {",
+      "      \"name\": \"Project Name\"",
+      "    }",
+      "  },",
+      "  \"opts\": {",
+      "    \"destination\": \"docs\",",
+      "    \"recurse\": true,",
+      "    \"readme\": \"README.md\",",
+      "    \"template\": \"node_modules/better-docs\"",
+      "  }",
+      "}"
+    ],
+    "description": "jsdoc-betterdocs"
+  }
+}

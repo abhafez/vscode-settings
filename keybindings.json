@@ -1,0 +1,268 @@
+[
+  {
+    "key": "ctrl+j ctrl+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+j ctrl+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "insert",
+    "command": "editor.action.insertSnippet"
+  },
+  {
+    "key": "alt+m alt+h",
+    "command": "workbench.action.moveEditorToLeftGroup"
+  },
+  {
+    "key": "alt+m alt+l",
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
+  {
+    "key": "alt+m alt+k",
+    "command": "workbench.action.moveEditorToAboveGroup"
+  },
+  {
+    "key": "alt+m alt+j",
+    "command": "workbench.action.moveEditorToBelowGroup"
+  },
+  {
+    "key": "ctrl+f11",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "alt+n alt+j",
+    "command": "extension.createTestFile"
+  },
+  {
+    "key": "alt+=",
+    "command": "workbench.action.increaseViewSize"
+  },
+  {
+    "key": "ctrl+alt+=",
+    "command": "increaseSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "alt+=",
+    "command": "-increaseSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "ctrl+alt+[Minus]",
+    "command": "decreaseSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "alt+-",
+    "command": "-decreaseSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "alt+-",
+    "command": "workbench.action.decreaseViewSize"
+  },
+  {
+    "key": "ctrl+shift+delete",
+    "command": "references-view.clear"
+  },
+  {
+    "key": "ctrl+shift+delete",
+    "command": "search.action.clearSearchResults"
+  },
+  {
+    "key": "alt+o",
+    "command": "git.openFile"
+  },
+  {
+    "key": "ctrl+[Backslash] ctrl+enter",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+[Backslash] ctrl+[Backslash]",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+[Backslash] ctrl+backspace",
+    "command": "workbench.action.toggleStatusbarVisibility"
+  },
+  {
+    "key": "ctrl+[Backslash] ctrl+'",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "bown",
+    "command": "workbench.action.positionPanelBottom"
+  },
+  {
+    "key": "alt+v alt+left",
+    "command": "workbench.action.positionPanelLeft"
+  },
+  {
+    "key": "alt+v alt+right",
+    "command": "workbench.action.positionPanelRight"
+  },
+  {
+    "key": "meta+f5",
+    "command": "workbench.files.action.refreshFilesExplorer"
+  },
+  {
+    "key": "meta+f6",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "alt+v alt+o",
+    "command": "outline.focus"
+  },
+  {
+    "key": "alt+v alt+e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "alt+g alt+f",
+    "command": "extension.git-file-history"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "alt+e alt+e",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "alt+e alt+delete",
+    "command": "editor.emmet.action.removeTag"
+  },
+  {
+    "key": "alt+e alt+u",
+    "command": "editor.emmet.action.updateTag"
+  },
+  {
+    "key": "alt+e alt+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "alt+e alt+down",
+    "command": "editor.emmet.action.decrementNumberByOne"
+  },
+  {
+    "key": "alt+e alt+up",
+    "command": "editor.emmet.action.incrementNumberByOne"
+  },
+  {
+    "key": "alt+e alt+p",
+    "command": "workbench.action.showEmmetCommands"
+  },
+  {
+    "key": "alt+r alt+right",
+    "command": "editor.emmet.action.selectNextItem"
+  },
+  {
+    "key": "alt+e alt+left",
+    "command": "editor.emmet.action.selectPrevItem"
+  },
+  {
+    "key": "alt+v alt+f",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "b",
+    "command": "workbench.files.action.focusOpenEditorsView",
+    "when": "workbench.explorer.openEditorsView.active"
+  },
+  {
+    "key": "alt+f",
+    "command": "references-view.next",
+    "when": "reference-list.hasResult && references-view.canNavigate"
+  },
+  {
+    "key": "f4",
+    "command": "-references-view.next",
+    "when": "reference-list.hasResult && references-view.canNavigate"
+  },
+  {
+    "key": "alt+d",
+    "command": "references-view.prev",
+    "when": "reference-list.hasResult && references-view.canNavigate"
+  },
+  {
+    "key": "shift+f4",
+    "command": "-references-view.prev",
+    "when": "reference-list.hasResult && references-view.canNavigate"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "alt+v alt+b",
+    "command": "workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "references-view.findReferences",
+    "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "alt+s",
+    "command": "-gitlens.showQuickRepoStatus",
+    "when": "!gitlens:disabled && config.gitlens.keymap == 'alternate'"
+  },
+  {
+    "key": "alt+s alt+j",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "alt+s alt+h",
+    "command": "workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "alt+s alt+l",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "alt+s alt+k",
+    "command": "workbench.action.splitEditorUp"
+  },
+  {
+    "key": "alt+k alt+l",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+right",
+    "command": "-workbench.action.focusRightGroup"
+  },
+  {
+    "key": "alt+k alt+k",
+    "command": "workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+up",
+    "command": "-workbench.action.focusAboveGroup"
+  },
+  {
+    "key": "alt+k alt+h",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+left",
+    "command": "-workbench.action.focusLeftGroup"
+  }
+]

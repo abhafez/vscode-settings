@@ -1,0 +1,2 @@
+# vscode-settings
+🇻🇸CODE
